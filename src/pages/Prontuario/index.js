@@ -55,11 +55,11 @@ const Prontuario = ({ history }) => {
               <Grid container spacing={2}>
                 <Grid item xs={4}>
                   <Title>Cód. Paciente</Title>
-                  <Text>123</Text>
+                  <Text>4bc25c82-88d4-4d7c-b578-9d5750323b9b</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Nome Paciente</Title>
-                  <Text>Igor</Text>
+                  <Text>Igor Aristides Amaral dos Santos</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>CPF</Title>
@@ -67,112 +67,112 @@ const Prontuario = ({ history }) => {
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Data Nascimento</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>22/04/1982</Text>
                 </Grid>{" "}
                 <Grid item xs={4}>
                   <Title>Sexo</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>M</Text>
                 </Grid>
                 <Grid item xs={12}>
                   <Subtitle>Endereço</Subtitle>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>CEP</Title>
-                  <Text>123456</Text>
+                  <Text>69982-970</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Rua</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Projetada, s/n</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Número</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>1234</Text>
                 </Grid>{" "}
                 <Grid item xs={4}>
                   <Title>Bairro</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Centro</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Cidade</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Porto Walter</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>UF</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>AC</Text>
                 </Grid>{" "}
                 <Grid item xs={12}>
                   <Title>Complemento</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Casa</Text>
                 </Grid>{" "}
                 <Grid item xs={12}>
                   <Subtitle>Dados de Contato</Subtitle>
                 </Grid>
                 <Grid item xs={6}>
-                  <Title>Telefone</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Title>Telefones</Title>
+                  <Text>(45)9 9998-2108, (45)9 9998-2398 </Text>
                 </Grid>{" "}
                 <Grid item xs={6}>
                   <Title>E-mail</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>igor@gmail.com</Text>
                 </Grid>{" "}
                 <Grid item xs={12}>
                   <Subtitle>Consultas Realizadas</Subtitle>
                 </Grid>
                 <Grid item xs={2}>
                   <Title>Data Consulta</Title>
-                  <Text>123456</Text>
+                  <Text>22/04/2020</Text>
                 </Grid>
                 <Grid item xs={2}>
                   <Title>Tipo Consulta</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Conulta com Clínico Geral</Text>
                 </Grid>
                 <Grid item xs={2}>
                   <Title>CID Consulta</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>A90</Text>
                 </Grid>{" "}
                 <Grid item xs={2}>
                   <Title>Nome Médico</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Geraldo Batista</Text>
                 </Grid>
                 <Grid item xs={2}>
                   <Title>CRM Médico</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>00000000-0/BR</Text>
                 </Grid>
                 <Grid item xs={12}>
                   <Subtitle>Exames Realizados</Subtitle>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Data Exame</Title>
-                  <Text>123456</Text>
+                  <Text>22/04/2020</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Tipo Exame</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Exame de Sangue</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Resultado</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>...</Text>
                 </Grid>
                 <Grid item xs={12}>
                   <Subtitle>Remédios Prescritos</Subtitle>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Data</Title>
-                  <Text>123456</Text>
+                  <Text>22/04/2020</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Remédio</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>Ibuprofeno</Text>
                 </Grid>
                 <Grid item xs={4}>
                   <Title>Posologia</Title>
-                  <Text>aaaaaaaaaaa</Text>
+                  <Text>8 em 8 horas, dois comprimidos</Text>
                 </Grid>
               </Grid>
             </Section>
           </Content>
         )}
-        <div style={{ marginTop: "20px" }}>
+        {/*         <div style={{ marginTop: "20px" }}>
           <Button
             type="button"
             label="Voltar"
@@ -181,7 +181,7 @@ const Prontuario = ({ history }) => {
             fullWidth
             onClick={() => window.history.back()}
           />
-        </div>
+        </div> */}
       </Card>
     </Container>
   );

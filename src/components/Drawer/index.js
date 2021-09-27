@@ -10,29 +10,22 @@ import Logo from "../../assets/icons/heart.svg";
 
 import { ReactComponent as Prontuario } from "../../assets/icons/medical.svg";
 import { ReactComponent as Paciente } from "../../assets/icons/patient.svg";
-import { ReactComponent as Dashboard } from "../../assets/icons/monitor.svg";
 
 import Item from "./Item";
 import useStyles, { LogoDrawer } from "./styles";
 
 const routesClient = [
   {
-    label: "Dashboard",
+    label: "Prontuário",
     to: "/",
     disabled: false,
-    icon: Dashboard,
+    icon: Prontuario,
   },
   {
     label: "Paciente",
     to: "/paciente",
     disabled: false,
     icon: Paciente,
-  },
-  {
-    label: "Prontuário",
-    to: "/prontuario",
-    disabled: false,
-    icon: Prontuario,
   },
 ];
 
